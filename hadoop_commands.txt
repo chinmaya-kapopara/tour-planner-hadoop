@@ -1,0 +1,5 @@
+1.To print output in cmd
+hadoop fs -cat /IA/input/db.txt | C:\Users\chinm\AppData\Local\Programs\Python\Python37\python.exe "C:\BDA Innovative\mapper.py" | C:\Users\chinm\AppData\Local\Programs\Python\Python37\python.exe "C:\BDA Innovative\reducer.py"
+
+2.To put output in hdfs
+hadoop fs -cat /IA/input/db.txt | C:\Users\chinm\AppData\Local\Programs\Python\Python37\python.exe "C:\BDA Innovative\mapper.py" | C:\Users\chinm\AppData\Local\Programs\Python\Python37\python.exe "C:\BDA Innovative\reducer.py" | hadoop fs -put - /IA/output/output.txt

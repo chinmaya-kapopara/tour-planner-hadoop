@@ -1,0 +1,8 @@
+You are at 			:Taj mahal:
+Number of sites to be shown	:500:
+Site filtering			:Y:
+Include cultural sites?(Y/N)	:Y:
+Include natural sites?(Y/N)	:N:
+Include sites in danger?(Y/N)	:N:
+Search radius in km(N for none)	:1000:
+Include foreign sites?(Y/N)	:Y:
